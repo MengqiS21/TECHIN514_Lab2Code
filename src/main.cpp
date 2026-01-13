@@ -8,7 +8,7 @@ void setup() {
 
   analogReadResolution(12);               // 12-bit: 0–4095
   analogSetPinAttenuation(analogPin, ADC_11db);
-  // ADC_11db ≈ 0–3.3V
+  // ADC_11db ≈ 0–3.3V 范围
 }
 
 void loop() {
